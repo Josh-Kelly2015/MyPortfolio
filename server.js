@@ -4,8 +4,8 @@ const morgan = require("morgan");
 const path = require("path");
 //Initalize express
 const app = express();
-// Set PORT to Herokus chosen port, or 8080
-const PORT = process.env.PORT || 8080;
+// Set PORT to Herokus chosen port, or 3001
+const PORT = process.env.PORT || 3001;
 // Import API Routes
 const routes = require("./Routes/API");
 // Initialize API Routes
